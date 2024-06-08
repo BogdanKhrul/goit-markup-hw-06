@@ -585,7 +585,11 @@ p {
 .modal-input:focus {
   border: 1px solid #4d5ae5;
 }
-
+/* -----------------------*/
+.modal-input:focus + .modal-svg {
+  fill: #4d5ae5;
+}
+/* -----------------------*/
 .modal-label {
   font-weight: 400;
   font-size: 12px;
