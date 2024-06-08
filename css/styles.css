@@ -553,6 +553,13 @@ p {
   fill: #ffffff;
 }
 
+/* -----------------------*/
+.modal-btn-close:hover > .modal-svg-btn-close,
+.modal-btn-close:focus > .modal-svg-btn-close {
+  fill: #ffffff;
+}
+/* -----------------------*/
+
 .modal-title {
   font-weight: 500;
   font-size: 16px;
@@ -660,6 +667,7 @@ p {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 
 .input-checkbox:checked + .div-check-label .accept-icon {
