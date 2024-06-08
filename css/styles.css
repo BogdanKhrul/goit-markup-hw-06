@@ -674,7 +674,7 @@ p {
   fill: transparent;
 }
 
-input:checked + .accept-icon {
+.input-checkbox:checked + .accept-icon {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
