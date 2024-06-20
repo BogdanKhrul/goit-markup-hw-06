@@ -691,13 +691,13 @@ textarea::placeholder {
   fill: #2e2f42;
 }
 
-.header-list {
+.header-list-one {
   display: flex;
   flex-direction: column;
   margin-bottom: 168px;
 }
 
-.header-list-contacts {
+.header-list-contacts-one {
   display: flex;
   flex-direction: column;
   margin-bottom: 48px;
@@ -762,6 +762,13 @@ textarea::placeholder {
 }
 
 /* ------------------MENU-MOBILE END-------------------- */
+
+/* --------------------TABLETE EDITION ------------------ */
+
+
+
+
+/* ------------------TABLETE EDITION END-------------------- */
 
 
 /* -------------------------IS-OPEN--------------------------- */
