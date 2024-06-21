@@ -116,7 +116,7 @@
       </div>
       <!--MOBILE BACKDROP END-->
       <!--MOBILE MENU-->
-      <div class="mobile-menu">
+      <div class="mobile-menu is-open">
         <button class="mob-menu-close-btn" type="button">
           <svg class="close-svg-mob-menu" width="8" height="8">
             <use href="./images/icons.svg#icon-krest"></use>
@@ -180,7 +180,7 @@
       </div>
       <!--MOBILE MENU END-->
       <!--TABLETE BACKDROP-->
-       <div class="backdrop-tablet is-open">
+       <div class="backdrop-tablet">
       <div class="modal-tablet">
         <button type="button" class="modal-btn-close-t">
           <svg class="modal-svg-btn-close-t" width="8" height="8">
@@ -225,7 +225,12 @@
 
           <div class="div-txt-area-t">
             <label class="modal-label-t" for="user-comment">Comment</label>
-            <textarea id="user-comment" name="user-comment" placeholder="Text input" class="modal-txt-area-t"></textarea>
+            <textarea 
+            id="user-comment" 
+            name="user-comment" 
+            placeholder="Text input" 
+            class="modal-txt-area-t">
+          </textarea>
           </div>
 
           <div class="checkbox-div-t">
@@ -239,7 +244,7 @@
             <label class="div-check-label-t" for="user-privacy">
               <span class="accept-icon-t">
                 <svg class="svg-accept-t" width="10" height="8">
-                  <use href="./images/icons.svg#icon-Vector-252"></use>
+                  <use href="./images/icons.svg#icon-Vector-25"></use>
                 </svg>
               </span>
               I accept the terms and conditions of the
@@ -251,6 +256,83 @@
       </div>
        </div>  
       <!--TABLETE BACKDROP END-->
+      <!--PC BACKDROP-->
+       <div class="backdrop-pc">
+      <div class="modal-pc">
+        <button type="button" class="modal-btn-close-pc">
+          <svg class="modal-svg-btn-close-t" width="8" height="8">
+            <use href="./images/icons.svg#icon-krest"></use>
+          </svg>
+        </button>
+        <p class="modal-title-pc">Leave your contacts and we will call you back</p>
+        <form>
+          <div class="form-div-pc">
+            <label class="modal-label-pc" for="user-name">Name</label>
+            <div class="form-div-two-pc">
+              <input 
+              type="text" 
+              name="user-name" 
+              class="modal-input-pc" 
+              id="user-name" />
+              <svg class="modal-svg-pc" width="12" height="12">
+                <use href="./images/icons.svg#icon-Vector-22"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="form-div-pc">
+            <label class="modal-label-pc" for="user-phone">Phone</label>
+            <div class="form-div-two-pc">
+              <input type="text" name="user-phone" class="modal-input-pc" id="user-phone" />
+              <svg class="modal-svg-pc" width="12" height="12">
+                <use href="./images/icons.svg#icon-Vector-23"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="form-div-pc">
+            <label class="modal-label-pc" for="user-email">Email</label>
+            <div class="form-div-two-pc">
+              <input type="text" name="user-email" class="modal-input-pc" id="user-email" />
+              <svg class="modal-svg-pc" width="12" height="12">
+                <use href="./images/icons.svg#icon-Vector-24"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="div-txt-area-pc">
+            <label class="modal-label-t" for="user-comment">Comment</label>
+            <textarea 
+            id="user-comment" 
+            name="user-comment" 
+            placeholder="Text input" 
+            class="modal-txt-area-pc">
+          </textarea>
+          </div>
+
+          <div class="checkbox-div-pc">
+            <input
+              id="user-privacy"
+              value="true"
+              type="checkbox"
+              name="user-privacy"
+              class="input-checkbox-pc visually-hidden"
+            />
+            <label class="div-check-label-pc" for="user-privacy">
+              <span class="accept-icon-pc">
+                <svg class="svg-accept-t" width="10" height="8">
+                  <use href="./images/icons.svg#icon-Vector-25"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href="accept-link" class="modal-link-pc">Privacy Policy</a>
+            </label>
+          </div>
+          <button type="submit" class="modal-submit-btn-pc">Send</button>
+        </form>
+      </div>
+       </div> 
+      <!--PC BACKDROP END-->
     </header>
     <main>
       <!--SECTION-1-->
