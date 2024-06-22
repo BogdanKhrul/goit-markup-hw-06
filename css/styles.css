@@ -101,17 +101,21 @@ p {
   line-height: 1.16667;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
   font-family: "Raleway", sans-serif;
 }
 
 .logo {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .header-m-b {
   display: flex;
   margin-left: auto;
+}
+
+.email {
+  font-style: normal;
 }
 
 /* ------------------HEADER END-------------------- */
@@ -364,13 +368,13 @@ p {
   line-height: 1.16667;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
   margin-bottom: 17.5px;
   text-align: center;
+  color: #4d5ae5;
 }
 
 .logo-second {
-  color: #4d5ae5;
+  color: #f4f4fd;
 }
 
 .main-logos {
@@ -924,6 +928,7 @@ color: #2e2f42;
   letter-spacing: 0.02em;
   color: #2e2f42;  
   margin-bottom: 8px;
+  text-align: start;
 }
 
 .info-par {
@@ -952,6 +957,15 @@ color: #2e2f42;
   margin: 0;
 }
 
+.section-three-svg-li {
+    margin-bottom: 0;
+}
+
+.people {
+  margin: 0;
+  padding: 32px 0;
+}
+
 /* -------------------- SECTION 3 END ------------------ */
 /* -------------------- SECTION 4 ------------------ */
 
@@ -960,6 +974,10 @@ color: #2e2f42;
   flex-wrap: wrap;
   gap: 72px 24px;
   justify-content: center;
+}
+
+.marketing-li {
+  width: calc((100% - 24px) / 2);
 }
 
 .marketing-li:not(:last-child) {
@@ -1398,7 +1416,10 @@ textarea::placeholder {
 }
 
 .people {
-  padding: 32px 0;
+  padding: 0 0;
+  padding-bottom: 32px;
+  padding-top: 32px;
+  margin-top: 0;
 }
 
 .info-title-two {
@@ -1427,6 +1448,7 @@ textarea::placeholder {
 .section-three-svg-li {
   width: 40px;
   height: 40px;
+  margin-bottom: 0;
 }
 
 .sec-three-a-li {
@@ -1474,12 +1496,6 @@ textarea::placeholder {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.marketing-li:hover {
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  background: #fff;
-}
-
 .list-job {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
@@ -1514,11 +1530,6 @@ textarea::placeholder {
   transform: translateY(101%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
-}
-
-.marketing-li {
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-   width: calc((100% - 48px) / 3);
 }
 
 .marketing-li:hover {
